@@ -1,0 +1,4 @@
+vhdl isim_temp "UnitTwo.vhd"
+vhdl isim_temp "UnitOne.vhd"
+vhdl isim_temp "Main.vhd"
+vhdl isim_temp "TEst.vhd"

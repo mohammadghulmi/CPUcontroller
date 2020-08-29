@@ -1,0 +1,184 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Nov 05 13:14:42 2019
+# Process ID: 1688
+# Log file: D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/planAhead_run_5/planAhead.log
+# Journal file: D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -309 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/pa.fromHdl.tcl
+# create_project -name CPU_Controller -dir "D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/planAhead_run_5" -part xc3s500efg320-4
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "Main.ucf" [current_fileset -constrset]
+Adding file 'D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/Main.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {UnitTwo.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {UnitOne.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Clk_Divider.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Main.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top Main $srcset
+# add_files [list {Main.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s500efg320-4
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/UnitTwo.vhd" into library work
+Parsing VHDL file "D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/UnitOne.vhd" into library work
+Parsing VHDL file "D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/Clk_Divider.vhd" into library work
+Parsing VHDL file "D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/Main.vhd" into library work
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/Main.ucf]
+CRITICAL WARNING: [Designutils 20-7] Could not create 'IOSTANDARD' constraint on 'C' because invalid IOSTANDARD value 'MOBILE_DDR' specified. The default IOSTANDARD will be used instead [D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/Main.ucf:4]
+CRITICAL WARNING: [Designutils 20-7] Could not create 'IOSTANDARD' constraint on 'ALU_EN' because invalid IOSTANDARD value 'HSTL_II' specified. The default IOSTANDARD will be used instead [D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/Main.ucf:5]
+CRITICAL WARNING: [Designutils 20-7] Could not create 'IOSTANDARD' constraint on 'A_WR' because invalid IOSTANDARD value 'HSTL_I' specified. The default IOSTANDARD will be used instead [D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/Main.ucf:22]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site F6 [D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/Main.ucf:26]
+Finished Parsing UCF File [D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/Main.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 68bedca1
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  A_WR]]
+startgroup
+set_property package_pin F7 [get_ports A_WR]
+endgroup
+set_property is_loc_fixed false [get_ports [list  A_WR]]
+set_property is_loc_fixed true [get_ports [list  A_WR]]
+save_constraints
+startgroup
+set_property package_pin D7 [get_ports {OPCODE[0]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {OPCODE[0]}]]
+set_property is_loc_fixed true [get_ports [list  {OPCODE[0]}]]
+startgroup
+set_property package_pin C7 [get_ports Z]
+endgroup
+set_property is_loc_fixed false [get_ports [list  Z]]
+set_property is_loc_fixed true [get_ports [list  Z]]
+startgroup
+set_property package_pin F8 [get_ports D]
+endgroup
+set_property is_loc_fixed false [get_ports [list  D]]
+set_property is_loc_fixed true [get_ports [list  D]]
+startgroup
+set_property package_pin E8 [get_ports C]
+endgroup
+set_property is_loc_fixed false [get_ports [list  C]]
+set_property is_loc_fixed true [get_ports [list  C]]
+startgroup
+set_property package_pin F9 [get_ports {ALU_OP[3]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {ALU_OP[3]}]]
+set_property is_loc_fixed true [get_ports [list  {ALU_OP[3]}]]
+startgroup
+set_property package_pin D11 [get_ports {ALU_OP[2]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {ALU_OP[2]}]]
+set_property is_loc_fixed true [get_ports [list  {ALU_OP[2]}]]
+startgroup
+set_property package_pin E9 [get_ports {ALU_OP[1]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {ALU_OP[1]}]]
+set_property is_loc_fixed true [get_ports [list  {ALU_OP[1]}]]
+startgroup
+set_property package_pin C11 [get_ports {ALU_OP[0]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {ALU_OP[0]}]]
+set_property is_loc_fixed true [get_ports [list  {ALU_OP[0]}]]
+startgroup
+set_property package_pin F11 [get_ports PC_LOAD]
+endgroup
+set_property is_loc_fixed false [get_ports [list  PC_LOAD]]
+set_property is_loc_fixed true [get_ports [list  PC_LOAD]]
+startgroup
+set_property package_pin F11 [get_ports PC_LOAD]
+endgroup
+set_property package_pin "" [get_ports [list  MDR_WR]]
+startgroup
+set_property package_pin E12 [get_ports MDR_WR]
+endgroup
+set_property is_loc_fixed false [get_ports [list  MDR_WR]]
+set_property is_loc_fixed true [get_ports [list  MDR_WR]]
+set_property package_pin "" [get_ports [list  RAM_RD]]
+startgroup
+set_property package_pin A13 [get_ports RAM_RD]
+endgroup
+set_property is_loc_fixed false [get_ports [list  RAM_RD]]
+set_property is_loc_fixed true [get_ports [list  RAM_RD]]
+startgroup
+set_property package_pin B6 [get_ports ALU_MUX]
+endgroup
+set_property is_loc_fixed false [get_ports [list  ALU_MUX]]
+set_property is_loc_fixed true [get_ports [list  ALU_MUX]]
+startgroup
+set_property package_pin A14 [get_ports ALU_EN]
+endgroup
+set_property is_loc_fixed false [get_ports [list  ALU_EN]]
+set_property is_loc_fixed true [get_ports [list  ALU_EN]]
+startgroup
+set_property package_pin E11 [get_ports {OPCODE[4]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {OPCODE[4]}]]
+set_property is_loc_fixed true [get_ports [list  {OPCODE[4]}]]
+startgroup
+set_property package_pin F12 [get_ports {OPCODE[3]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {OPCODE[3]}]]
+set_property is_loc_fixed true [get_ports [list  {OPCODE[3]}]]
+startgroup
+set_property package_pin B13 [get_ports {OPCODE[2]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {OPCODE[2]}]]
+set_property is_loc_fixed true [get_ports [list  {OPCODE[2]}]]
+startgroup
+set_property package_pin B14 [get_ports {OPCODE[1]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {OPCODE[1]}]]
+set_property is_loc_fixed true [get_ports [list  {OPCODE[1]}]]
+startgroup
+set_property package_pin C9 [get_ports clk]
+endgroup
+set_property is_loc_fixed false [get_ports [list  clk]]
+set_property is_loc_fixed true [get_ports [list  clk]]
+startgroup
+set_property package_pin N17 [get_ports RESET]
+endgroup
+set_property is_loc_fixed false [get_ports [list  RESET]]
+set_property is_loc_fixed true [get_ports [list  RESET]]
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+ (See D:/CPU_Controller-20191029T090228Z-001/CPU_Controller\planAhead_pid1688.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Nov 05 13:33:49 2019...
+INFO: [Common 17-83] Releasing license: PlanAhead

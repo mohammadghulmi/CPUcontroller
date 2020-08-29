@@ -1,0 +1,4 @@
+vhdl work "UnitTwo.vhd"
+vhdl work "UnitOne.vhd"
+vhdl work "Clk_Divider.vhd"
+vhdl work "Main.vhd"

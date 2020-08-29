@@ -1,0 +1,119 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Nov 05 13:14:42 2019
+# Process ID: 1688
+# Log file: D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/planAhead_run_5/planAhead.log
+# Journal file: D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  A_WR]]
+startgroup
+set_property package_pin F7 [get_ports A_WR]
+endgroup
+set_property is_loc_fixed false [get_ports [list  A_WR]]
+set_property is_loc_fixed true [get_ports [list  A_WR]]
+save_constraints
+startgroup
+set_property package_pin D7 [get_ports {OPCODE[0]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {OPCODE[0]}]]
+set_property is_loc_fixed true [get_ports [list  {OPCODE[0]}]]
+startgroup
+set_property package_pin C7 [get_ports Z]
+endgroup
+set_property is_loc_fixed false [get_ports [list  Z]]
+set_property is_loc_fixed true [get_ports [list  Z]]
+startgroup
+set_property package_pin F8 [get_ports D]
+endgroup
+set_property is_loc_fixed false [get_ports [list  D]]
+set_property is_loc_fixed true [get_ports [list  D]]
+startgroup
+set_property package_pin E8 [get_ports C]
+endgroup
+set_property is_loc_fixed false [get_ports [list  C]]
+set_property is_loc_fixed true [get_ports [list  C]]
+startgroup
+set_property package_pin F9 [get_ports {ALU_OP[3]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {ALU_OP[3]}]]
+set_property is_loc_fixed true [get_ports [list  {ALU_OP[3]}]]
+startgroup
+set_property package_pin D11 [get_ports {ALU_OP[2]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {ALU_OP[2]}]]
+set_property is_loc_fixed true [get_ports [list  {ALU_OP[2]}]]
+startgroup
+set_property package_pin E9 [get_ports {ALU_OP[1]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {ALU_OP[1]}]]
+set_property is_loc_fixed true [get_ports [list  {ALU_OP[1]}]]
+startgroup
+set_property package_pin C11 [get_ports {ALU_OP[0]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {ALU_OP[0]}]]
+set_property is_loc_fixed true [get_ports [list  {ALU_OP[0]}]]
+startgroup
+set_property package_pin F11 [get_ports PC_LOAD]
+endgroup
+set_property is_loc_fixed false [get_ports [list  PC_LOAD]]
+set_property is_loc_fixed true [get_ports [list  PC_LOAD]]
+startgroup
+set_property package_pin F11 [get_ports PC_LOAD]
+endgroup
+set_property package_pin "" [get_ports [list  MDR_WR]]
+startgroup
+set_property package_pin E12 [get_ports MDR_WR]
+endgroup
+set_property is_loc_fixed false [get_ports [list  MDR_WR]]
+set_property is_loc_fixed true [get_ports [list  MDR_WR]]
+set_property package_pin "" [get_ports [list  RAM_RD]]
+startgroup
+set_property package_pin A13 [get_ports RAM_RD]
+endgroup
+set_property is_loc_fixed false [get_ports [list  RAM_RD]]
+set_property is_loc_fixed true [get_ports [list  RAM_RD]]
+startgroup
+set_property package_pin B6 [get_ports ALU_MUX]
+endgroup
+set_property is_loc_fixed false [get_ports [list  ALU_MUX]]
+set_property is_loc_fixed true [get_ports [list  ALU_MUX]]
+startgroup
+set_property package_pin A14 [get_ports ALU_EN]
+endgroup
+set_property is_loc_fixed false [get_ports [list  ALU_EN]]
+set_property is_loc_fixed true [get_ports [list  ALU_EN]]
+startgroup
+set_property package_pin E11 [get_ports {OPCODE[4]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {OPCODE[4]}]]
+set_property is_loc_fixed true [get_ports [list  {OPCODE[4]}]]
+startgroup
+set_property package_pin F12 [get_ports {OPCODE[3]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {OPCODE[3]}]]
+set_property is_loc_fixed true [get_ports [list  {OPCODE[3]}]]
+startgroup
+set_property package_pin B13 [get_ports {OPCODE[2]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {OPCODE[2]}]]
+set_property is_loc_fixed true [get_ports [list  {OPCODE[2]}]]
+startgroup
+set_property package_pin B14 [get_ports {OPCODE[1]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {OPCODE[1]}]]
+set_property is_loc_fixed true [get_ports [list  {OPCODE[1]}]]
+startgroup
+set_property package_pin C9 [get_ports clk]
+endgroup
+set_property is_loc_fixed false [get_ports [list  clk]]
+set_property is_loc_fixed true [get_ports [list  clk]]
+startgroup
+set_property package_pin N17 [get_ports RESET]
+endgroup
+set_property is_loc_fixed false [get_ports [list  RESET]]
+set_property is_loc_fixed true [get_ports [list  RESET]]
+save_constraints

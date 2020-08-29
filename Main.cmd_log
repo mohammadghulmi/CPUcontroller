@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "D:/VHDL/CPU_Controller/Main.xst" -ofn "D:/VHDL/CPU_Controller/Main.syr" 
+vhdtdtfi -lib work UnitTwo.vhd -lib work UnitOne.vhd -lib work Clk_Divider.vhd -lib work Main.vhd -prj CPU_Controller -o Main.spl -module Main -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+xst -intstyle ise -ifn "D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/Main.xst" -ofn "D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/Main.syr" 

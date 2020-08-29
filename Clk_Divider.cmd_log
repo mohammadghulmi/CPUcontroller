@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/VHDL/CPU_Controller/Clk_Divider.xst" -ofn "D:/VHDL/CPU_Controller/Clk_Divider.syr" 
+xst -intstyle ise -ifn "D:/VHDL/CPU_Controller/Clk_Divider.xst" -ofn "D:/VHDL/CPU_Controller/Clk_Divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 Clk_Divider.ngc Clk_Divider.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Clk_Divider_map.ncd Clk_Divider.ngd Clk_Divider.pcf 
+par -w -intstyle ise -ol high -mt off Clk_Divider_map.ncd Clk_Divider.ncd Clk_Divider.pcf 
+bitgen -intstyle ise -f Clk_Divider.ut Clk_Divider.ncd 

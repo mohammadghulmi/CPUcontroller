@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/MC-PC-00-Student/Desktop/CPU_Controller-20191029T090228Z-001/CPU_Controller/teset_isim_beh.exe" -prj "C:/Users/MC-PC-00-Student/Desktop/CPU_Controller-20191029T090228Z-001/CPU_Controller/teset_beh.prj" "work.teset" 

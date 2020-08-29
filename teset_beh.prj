@@ -1,0 +1,4 @@
+vhdl work "UnitTwo.vhd"
+vhdl work "UnitOne.vhd"
+vhdl work "Main.vhd"
+vhdl work "teset.vhd"

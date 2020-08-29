@@ -1,0 +1,66 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Nov 05 12:47:05 2019
+# Process ID: 5132
+# Log file: D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/planAhead_run_3/planAhead.log
+# Journal file: D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/CPU_Controller-20191029T090228Z-001/CPU_Controller/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  ALU_EN]]
+set_property iostandard MOBILE_DDR [get_ports [list ALU_EN]]
+set_property package_pin "" [get_ports [list  ALU_EN]]
+set_property iostandard PCI33_3 [get_ports [list ALU_EN]]
+set_property offchip_term FP_VTT_50 [get_ports [list ALU_EN]]
+set_property iostandard MOBILE_DDR [get_ports [list ALU_EN]]
+set_property iostandard LVCMOS18 [get_ports [list ALU_MUX]]
+set_property iostandard MOBILE_DDR [get_ports [list C]]
+set_property iostandard HSTL_II [get_ports [list ALU_EN]]
+set_property package_pin "" [get_ports [list  ALU_EN]]
+set_property package_pin "" [get_ports [list  ALU_EN]]
+set_property package_pin "" [get_ports [list  ALU_EN]]
+set_property package_pin "" [get_ports [list  RAM_WR]]
+set_property package_pin "" [get_ports [list  RAM_RD]]
+set_property iostandard LVCMOS18 [get_ports [list RAM_RD]]
+startgroup
+set_property package_pin B4 [get_ports RAM_WR]
+endgroup
+set_property iostandard LVCMOS18 [get_ports [list RAM_WR]]
+set_property package_pin "" [get_ports [list  PC_RESET]]
+startgroup
+set_property package_pin A4 [get_ports PC_RESET]
+endgroup
+set_property is_loc_fixed false [get_ports [list  PC_RESET]]
+startgroup
+set_property package_pin D5 [get_ports RAM_MUX]
+endgroup
+set_property is_loc_fixed false [get_ports [list  RAM_MUX]]
+set_property is_loc_fixed true [get_ports [list  RAM_MUX]]
+set_property is_loc_fixed true [get_ports [list  PC_RESET]]
+set_property is_loc_fixed false [get_ports [list  PC_RESET]]
+set_property is_loc_fixed true [get_ports [list  PC_RESET]]
+startgroup
+set_property package_pin A6 [get_ports IR_WR]
+endgroup
+set_property is_loc_fixed false [get_ports [list  IR_WR]]
+set_property is_loc_fixed true [get_ports [list  IR_WR]]
+startgroup
+set_property package_pin E7 [get_ports PC_INC]
+endgroup
+set_property is_loc_fixed false [get_ports [list  PC_INC]]
+set_property is_loc_fixed true [get_ports [list  PC_INC]]
+startgroup
+set_property package_pin C5 [get_ports FLAG_WR]
+endgroup
+set_property is_loc_fixed false [get_ports [list  FLAG_WR]]
+set_property is_loc_fixed true [get_ports [list  FLAG_WR]]
+startgroup
+set_property package_pin B6 [get_ports ALU_MUX]
+endgroup
+set_property is_loc_fixed false [get_ports [list  ALU_MUX]]
+set_property package_pin "" [get_ports [list  A_WR]]
+set_property iostandard HSTL_I [get_ports [list A_WR]]
+set_property package_pin "" [get_ports [list  A_WR]]
+save_constraints

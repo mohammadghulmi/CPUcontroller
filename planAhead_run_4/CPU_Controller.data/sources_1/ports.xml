@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="OPCODE">
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="ALU_OP">
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="NOW_STATE">
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Port Id="clk" Dir="IN"/>
+		<Port Id="C" Dir="IN"/>
+		<Port Id="Z" Dir="IN"/>
+		<Port Id="D" Dir="IN"/>
+		<Port Id="RESET" Dir="IN"/>
+		<Port Id="ALU_MUX" Dir="OUT"/>
+		<Port Id="RAM_MUX" Dir="OUT"/>
+		<Port Id="PC_INC" Dir="OUT"/>
+		<Port Id="PC_LOAD" Dir="OUT"/>
+		<Port Id="PC_RESET" Dir="OUT"/>
+		<Port Id="A_WR" Dir="OUT"/>
+		<Port Id="IR_WR" Dir="OUT"/>
+		<Port Id="FLAG_WR" Dir="OUT"/>
+		<Port Id="MDR_WR" Dir="OUT"/>
+		<Port Id="ALU_EN" Dir="OUT"/>
+		<Port Id="RAM_RD" Dir="OUT"/>
+		<Port Id="RAM_WR" Dir="OUT"/>
+	</Ifc>
+</Interface>
+
